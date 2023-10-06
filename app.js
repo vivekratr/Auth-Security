@@ -19,7 +19,7 @@ mongoose.connect("mongodb://localhost:27017/levleOneDB", {
 
 const userSchema = new mongoose.Schema({
   email: String,
-  password: String,
+  password:  String,
 });
 
 const secretKey =process.env.SECRET 
